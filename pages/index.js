@@ -33,6 +33,10 @@ export default function Home() {
             {/* <p className={styles.sub_sub_titlte}>
               Building Bridges for Transformation
             </p> */}
+
+            <div className={styles.hero_button}>
+              <p className={styles.hero_button_text}>Start Building Bridges</p>
+            </div>
           </div>
         </div>
       </main>
