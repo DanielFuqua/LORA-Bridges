@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
 
 /* -------------------CUSTOM STYLES----------------------- */
 
@@ -7,22 +9,52 @@
   background-size: 1700px;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  /* justify-content: center; */
   align-items: center;
   width: 100vw;
   height: 100vh;
+  padding-bottom: 300px;
 }
 
 .hero_content {
-  text-align: left;
+  padding: 0px 0px 0px 5%;
 }
 
-.hero_content p {
+.hero_title {
+  display: flex;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 133px;
+  font-family: "Montserrat", sans-serif;
+  /* text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
+  /* inset: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
+  background-color: rgb(180, 178, 178);
+  color: transparent;
+  text-shadow: 0px 2px 1px rgb(255, 255, 255);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.sub_title {
   color: #eaeaea;
+  font-weight: 400;
+  font-size: 48px;
+  font-family: "Sorts Mill Goudy", serif;
+  margin: 0;
+}
+.sub_sub_titlte {
+  color: #eaeaea;
+  font-weight: 600;
+  font-size: 24px;
   font-family: "Montserrat", sans-serif;
 }
-
 /* ------------------END CUSTOM STYLES---------------------- */
 
 .container {
@@ -35,7 +67,6 @@
 }
 
 .main {
-  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -71,23 +102,6 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
-}
-
-.title {
-  color: white;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 133px;
-  font-family: "Montserrat", sans-serif;
-  /* text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
-  /* inset: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
-  background-color: rgb(180, 178, 178);
-  color: transparent;
-  text-shadow: 0px 2px 3px rgb(255, 255, 255);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
 }
 
 .title,

@@ -13,20 +13,26 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.landing_section}>
           <div className={styles.hero_content}>
-            <h1 className={styles.title}>
-              L
+            <div className={styles.hero_title}>
+              <h1 className={styles.title}>L</h1>
               <Image
                 src="/../public/olive_branch_logo.svg"
                 alt="Picture of the author"
-                width={100}
-                height={100}
+                width={147}
+                height={133}
+                margin-top={40}
               />
-              RA
-            </h1>
 
-            <p className={styles.description}>
-              Leadership Openness Results & Awareness
+              <h1 className={styles.title}>RA</h1>
+            </div>
+
+            <p className={styles.sub_title}>
+              Leadership Openness Results
+              <br />& Awareness
             </p>
+            {/* <p className={styles.sub_sub_titlte}>
+              Building Bridges for Transformation
+            </p> */}
           </div>
         </div>
       </main>
