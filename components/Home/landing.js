@@ -6,22 +6,13 @@ const Landing = () => (
     <div className={styles.hero_content}>
       <div className={styles.hero_title}>
         <h1 className={styles.title}>L</h1>
-        <Image
-          src="/../public/olive_branch_logo.svg"
-          alt="Olive branch logo svg"
-          width={147}
-          height={133}
-          margin-top={40}
-        />
-
+        <img src="/logo.png" width="147px" height="133px" />
         <h1 className={styles.title}>RA</h1>
       </div>
-
-      <p className={styles.sub_title}>
-        Leadership Openness Results
-        <br />& Awareness
-      </p>
-
+      <br />
+      <p className={styles.sub_title}>Leadership Openness Results</p>
+      <p className={styles.sub_title}>& Awareness</p>
+        
       <div className={styles.hero_button}>
         <p className={styles.hero_button_text}>Start Building Bridges</p>
       </div>
