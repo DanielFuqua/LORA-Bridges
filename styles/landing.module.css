@@ -1,19 +1,15 @@
 .landing_section {
-  background: url("../public/Group\ 21.png");
+  background: url("../public/Group 21.png") top center;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
-  display: flex;
-  width: 100vw;
-  height: 200vh;
-  position: relative;
-  bottom: 200px;
+  height: 110vh;
 }
 
 .hero_content {
-  padding: 0px 0px 0px 10%;
+  /* padding: 0px 0px 0px 10%;
   position: relative;
-  top: 340px;
+  top: 340px; */
 }
 
 .hero_title {
