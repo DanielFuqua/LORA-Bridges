@@ -4,9 +4,16 @@ import Image from "next/image";
 const Nav = () => (
   <div className={styles.nav}>
     <div className={styles.navLogo}>
-      <div className={styles.navLogo_text}>LORA</div>
+      {/* <div className={styles.navLogo_text}>LORA</div>
       <img src="/logo.png" width="95px" height="86px" />
-      <div className={styles.navLogo_text}>Bridges</div>
+      <div className={styles.navLogo_text}>Bridges</div> */}
+      <Image
+        src="/navLogoFull.svg"
+        alt="Lora Bridges Logo Nav"
+        width={405}
+        height={86}
+        className={styles.logo_svg}
+      />
     </div>
 
     <div className={styles.social_icons}>

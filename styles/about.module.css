@@ -1,7 +1,22 @@
 .about_section {
+  position: relative;
+  bottom: 440px;
   background: url("../public/Group\ 23.png");
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  /* z-index: 2; */
-  min-height: 100vw;
-  min-width: 1500px;
+  height: 150vh;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.about_section_wrapper {
+}
+
+.about_header {
+  position: relative;
+  top: 270px;
+}
+
+.about_content {
 }

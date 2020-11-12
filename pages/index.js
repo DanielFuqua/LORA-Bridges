@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Landing />
-        {/* <About /> */}
+        <About />
       </main>
 
       {/* <footer className={styles.footer}>

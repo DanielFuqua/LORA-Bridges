@@ -17,12 +17,16 @@
   align-items: center;
 }
 
+.logo_svg {
+  cursor: pointer;
+}
+
 .navLogo_text {
   font-family: "Sorts Mill Goudy", serif;
   text-shadow: 2px 2px rgba(8, 8, 8, 0.384);
   font-weight: 100;
   font-size: 40px;
-  color: white;
+  color: rgb(233, 233, 233);
 }
 
 .navLogo img {
@@ -50,7 +54,8 @@
 .item {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: white;
+
+  color: rgba(236, 222, 240, 1);
   font-size: 24px;
   text-decoration: none;
   list-style: none;
@@ -58,6 +63,8 @@
 
 .item:hover {
   cursor: pointer;
+  color: rgb(252, 239, 192);
+  /* text-decoration: underline; */
 }
 
 @media only screen and (max-width: 768px) {
