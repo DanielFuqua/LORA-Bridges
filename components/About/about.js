@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => (
   <div className={styles.about_section}>
     <div className={styles.about_section_wrapper}>
-      <div className={styles.about_header}>
+      <div className={styles.about_header} id="about">
         <Image
           src="/about_header.svg"
           alt="about header"

@@ -2,7 +2,7 @@ import styles from "../../styles/landing.module.css";
 import Image from "next/image";
 
 const Landing = () => (
-  <div className={styles.landing_section}>
+  <div className={styles.landing_section} id="landing">
     <div className={styles.hero_content}>
       <div className={styles.hero_title}>
         <h1 className={styles.title_text}>L</h1>

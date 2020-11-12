@@ -7,13 +7,15 @@ const Nav = () => (
       {/* <div className={styles.navLogo_text}>LORA</div>
       <img src="/logo.png" width="95px" height="86px" />
       <div className={styles.navLogo_text}>Bridges</div> */}
-      <Image
-        src="/navLogoFull.svg"
-        alt="Lora Bridges Logo Nav"
-        width={405}
-        height={86}
-        className={styles.logo_svg}
-      />
+      <a href="#landing">
+        <Image
+          src="/navLogoFull.svg"
+          alt="Lora Bridges Logo Nav"
+          width={405}
+          height={86}
+          className={styles.logo_svg}
+        />
+      </a>
     </div>
 
     <div className={styles.social_icons}>
@@ -23,7 +25,7 @@ const Nav = () => (
         </a>
       </div>
       <div className={styles.icon}>
-        <a>
+        <a href="https://www.facebook.com/buildingbridgesfortransformation/">
           <Image
             src="/facebook.svg"
             alt="Facebook"
@@ -33,7 +35,7 @@ const Nav = () => (
         </a>
       </div>
       <div className={styles.icon}>
-        <a>
+        <a href="https://www.instagram.com/lorabuildingbridges/">
           <Image src="/insta.svg" alt="Insta" width={19} height={21.31} />
         </a>
       </div>
@@ -41,7 +43,7 @@ const Nav = () => (
 
     <ul className={styles.navItems}>
       <li className={styles.li}>
-        <a className={styles.item} href="#">
+        <a className={styles.item} href="#about">
           About Us
         </a>
       </li>
