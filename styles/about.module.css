@@ -3,7 +3,7 @@
 
 .about_section {
   position: relative;
-  bottom: 440px;
+  bottom: 515px;
   background: url("../public/Group\ 23.png");
   background-size: contain;
   background-position: center;
@@ -14,20 +14,19 @@
 .about_section_wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: space-between;
 }
 
 .about_header {
   position: relative;
-  top: 270px;
-  position: absolute;
+  top: 300px;
 }
 
 .about_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 420px 10% 0 10%;
+  margin: 330px 10% 0 10%;
 }
 
 .mandala {
@@ -55,7 +54,7 @@
   /* font-family: "Sorts Mill Goudy", serif; */
   padding-top: 2%;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 24.5px;
   color: white;
   text-align: center;
 }

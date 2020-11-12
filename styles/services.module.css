@@ -1,0 +1,22 @@
+/* .services_section {
+  width: 100%;
+  height: 800px;
+  background: url(../public/services_bg.svg);
+  position: relative;
+  bottom: 545px;
+} */
+
+.services_section {
+  width: 100%;
+  height: 870px;
+
+  background: url(../public/services_bg.svg);
+  background-size: cover;
+  position: relative;
+  bottom: 621px;
+}
+
+.vector {
+  position: relative;
+  bottom: 54px;
+}
