@@ -23,13 +23,15 @@ const About = () => (
             height={300}
             className={styles.sally}
           />
-          <Image
-            src="/Sally Bartolameolli, MEd.svg"
-            alt="sally title"
-            width={225}
-            height={300}
-            className={styles.sally_title}
-          />
+          <a href="http://www.sallybartolameolli.com/">
+            <Image
+              src="/Sally Bartolameolli, MEd.svg"
+              alt="sally title"
+              width={300}
+              height={200}
+              className={styles.sally_title}
+            />
+          </a>
         </div>
         <div className={styles.mandala}>
           <Image
@@ -39,6 +41,7 @@ const About = () => (
             height={500}
             className={styles.manadala_pic}
           />
+          <br />
           <Image
             src="/LORA Title.svg"
             alt="Lora title"
@@ -49,20 +52,31 @@ const About = () => (
         </div>
         <div className={styles.kim_section}>
           <Image
-            src="/Kim Siongco.svg"
+            src="/kim.svg"
             alt="kim"
             width={225}
             height={300}
             className={styles.kim}
           />
-          <Image
-            src="/Kim Siongco.svg"
-            alt="kim title"
-            width={225}
-            height={300}
-            className={styles.kim_title}
-          />
+          <a href="https://facetofacecoach.net">
+            <Image
+              src="/Kim Siongco.svg"
+              alt="kim title"
+              width={225}
+              height={200}
+              className={styles.kim_title}
+            />
+          </a>
         </div>
+      </div>
+      <div className={styles.lora_paragraph}>
+        <p>
+          LORA Bridges is about building bridges for transformation. We teach
+          you how to access the archetypal energies that we believe live within
+          all human beings - Leadership, Openness, Results, & Awareness. Each
+          archetype has its own techniques and practices to enhance the quality
+          of your personal and professional life.
+        </p>
       </div>
     </div>
   </div>

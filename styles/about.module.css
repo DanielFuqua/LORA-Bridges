@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sorts+Mill+Goudy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
+
 .about_section {
   position: relative;
   bottom: 440px;
@@ -24,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 450px 10% 0 10%;
+  margin: 420px 10% 0 10%;
 }
 
 .mandala {
@@ -41,4 +44,18 @@
 .kim_section {
   display: flex;
   flex-direction: column;
+}
+
+.lora_paragraph {
+  height: 10px;
+  padding: 0 10%;
+}
+
+.lora_paragraph p {
+  /* font-family: "Sorts Mill Goudy", serif; */
+  padding-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
