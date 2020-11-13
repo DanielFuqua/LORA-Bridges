@@ -1,15 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sorts+Mill+Goudy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
 
-.about_section {
+/* .about_test {
+  width: 100%;
+  height: 145vh;
+  background-color: rgba(0, 0, 255, 0.418);
+  background-image: url("../public/Group\ 23.png");
+  background-size: cover;
+  background-position: top center;
   position: relative;
-  bottom: 515px;
+  bottom: 280px;
+} */
+
+.about_section {
+  width: 100%;
+  height: 145vh;
+  background-color: rgba(0, 0, 255, 0.418);
+  background-image: url("../public/Group\ 23.png");
+  background-size: cover;
+  background-position: top center;
+  position: absolute;
+  top: 67%;
+}
+
+/* .about_section {
+  width: 100vw;
+  height: 150vh;
   background: url("../public/Group\ 23.png");
+  position: relative;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 150vh;
-}
+  bottom: 430px;
+ 
+} */
 
 .about_section_wrapper {
   display: flex;
@@ -38,16 +62,24 @@
 .sally_section {
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  align-items: center;
 }
 
 .kim_section {
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  align-items: center;
 }
 
 .lora_paragraph {
-  height: 10px;
-  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lora_title {
 }
 
 .lora_paragraph p {
@@ -57,4 +89,5 @@
   font-size: 24.5px;
   color: white;
   text-align: center;
+  max-width: 70%;
 }

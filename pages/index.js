@@ -15,7 +15,9 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
         <About />
-        <Services />
+        <div className={styles.services_test}></div>
+        {/* <About />
+        <Services /> */}
       </main>
 
       {/* <footer className={styles.footer}>

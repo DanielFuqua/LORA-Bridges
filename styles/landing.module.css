@@ -1,4 +1,4 @@
-.landing_section {
+/* .landing_section {
   position: relative;
   background: url("../public/Group 21.png");
   background-repeat: no-repeat;
@@ -6,6 +6,20 @@
   background-size: contain;
   padding: 0;
   height: 111vh;
+} */
+.landing_wrapper {
+  width: 100%;
+  height: 110vh;
+  background-color: red;
+  background-image: url("../public/Group 21.png");
+  background-size: cover;
+  background-position: top center;
+}
+
+.landing_section {
+  background-image: url("../public/Group 21.png");
+
+  /* background-repeat: no-repeat; */
 }
 
 .hero_content {
@@ -52,10 +66,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none !important;
 }
 
 .hero_button:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  text-decoration: none;
 
   cursor: pointer;
 }
@@ -66,4 +82,5 @@
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  text-decoration: none !important;
 }

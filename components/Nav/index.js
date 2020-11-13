@@ -48,7 +48,7 @@ const Nav = () => (
         </a>
       </li>
       <li className={styles.li}>
-        <a className={styles.item} href="#">
+        <a className={styles.item} href="#services">
           Services
         </a>
       </li>

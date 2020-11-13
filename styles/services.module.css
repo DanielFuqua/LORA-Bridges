@@ -8,15 +8,21 @@
 
 .services_section {
   width: 100%;
-  height: 870px;
+  height: 100vh;
 
   background: url(../public/services_bg.svg);
   background-size: cover;
   position: relative;
-  bottom: 621px;
+  bottom: 501px;
 }
 
 .vector {
   position: relative;
   bottom: 54px;
+}
+
+.heading {
+  position: relative;
+  bottom: 10%;
+  margin-left: 10%;
 }
