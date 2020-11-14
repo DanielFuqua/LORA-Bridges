@@ -18,6 +18,10 @@ export default function Home() {
         <div className={styles.services_test}></div>
         {/* <About />
         <Services /> */}
+        <div className={styles.gradient_test}>
+          <div className={styles.borders_test}></div>
+          <div className={styles.borders_test2}></div>
+        </div>
       </main>
 
       {/* <footer className={styles.footer}>
