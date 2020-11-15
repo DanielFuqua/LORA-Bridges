@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Landing from "../components/Home/landing";
 import About from "../components/About/about";
 import Services from "../components/Services/Services";
+import Gradient from "../components/Gradient Quote/gradient";
 
 export default function Home() {
   return (
@@ -15,13 +16,8 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
         <About />
-        <div className={styles.services_test}></div>
-        {/* <About />
-        <Services /> */}
-        <div className={styles.gradient_test}>
-          <div className={styles.borders_test}></div>
-          <div className={styles.borders_test2}></div>
-        </div>
+        <Services />
+        <Gradient />
       </main>
 
       {/* <footer className={styles.footer}>

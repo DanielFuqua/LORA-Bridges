@@ -8,12 +8,13 @@
 
 .services_section {
   width: 100%;
-  height: 100vh;
-
-  background: url(../public/services_bg.svg);
+  height: 85vh;
+  position: absolute;
+  top: 196%;
+  background-image: url("../public/services_bg.svg");
   background-size: cover;
-  position: relative;
-  bottom: 501px;
+  background-position: top center;
+  /* background-color: rgb(21, 255, 0); */
 }
 
 .vector {

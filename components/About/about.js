@@ -34,15 +34,15 @@ const About = () => (
             height={500}
             className={styles.manadala_pic}
           />
-          <br /> */}
-    {/* <Image
+          <br />
+          <Image
             src="/LORA Title.svg"
             alt="Lora title"
             width={170}
             height={80}
             className={styles.lora_title}
-          /> */}
-    {/* </div>
+          />
+        </div>
         <div className={styles.kim_section}>
           <Image
             src="/kim.svg"
