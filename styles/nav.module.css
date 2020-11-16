@@ -12,7 +12,7 @@
 }
 
 .navLogo {
-  padding-left: 10%;
+  padding-left: 8%;
   display: flex;
   align-items: center;
 }
@@ -45,7 +45,7 @@
   display: flex;
   justify-items: end;
   justify-content: space-between;
-  margin-right: 5%;
+  margin-right: 8%;
 }
 
 .li {

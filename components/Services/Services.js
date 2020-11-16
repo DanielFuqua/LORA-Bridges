@@ -3,15 +3,8 @@ import Image from "next/image";
 
 const Services = () => (
   <div className={styles.services_section} id="services">
-    {/* <div className={styles.vector}>
-      <Image
-        src="/services_vector.svg"
-        alt="vecor-services"
-        width={1530}
-        height={117}
-      />
-    </div>
-    <div className={styles.heading}>
+    <div className={styles.vector}></div>
+    {/* <div className={styles.heading}>
       <Image
         src="/services_heading.svg"
         alt="heading-services"
