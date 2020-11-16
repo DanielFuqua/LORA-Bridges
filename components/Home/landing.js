@@ -9,8 +9,10 @@ const Landing = () => (
         <img src="/logo.png" width="147px" height="133px" />
         <h1 className={styles.title_text}>RA</h1>
       </div>
-      <p className={styles.sub_title}>Leadership Openness Results</p>
-      <p className={styles.sub_title}>& Awareness</p>
+      <p className={styles.sub_title}>
+        Leadership Openness Results & Awareness
+      </p>
+      {/* <p className={styles.sub_title}>& Awareness</p> */}
         
       <div className={styles.hero_button}>
         <p className={styles.hero_button_text}>Start Building Bridges</p>
@@ -20,7 +22,7 @@ const Landing = () => (
       <Image
         src="/Nigerian Proverb (2).svg"
         alt="Lora Bridges Logo Nav"
-        width={550}
+        width={570}
         height={260}
       />
     </div>

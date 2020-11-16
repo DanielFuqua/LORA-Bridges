@@ -44,7 +44,7 @@ const Nav = () => (
     <ul className={styles.navItems}>
       <li className={styles.li}>
         <a className={styles.item} href="#about">
-          About Us
+          About
         </a>
       </li>
       <li className={styles.li}>
