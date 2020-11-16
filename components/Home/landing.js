@@ -16,6 +16,14 @@ const Landing = () => (
         <p className={styles.hero_button_text}>Start Building Bridges</p>
       </div>
     </div>
+    <div className={styles.nigerian_proverb}>
+      <Image
+        src="/Nigerian Proverb (2).svg"
+        alt="Lora Bridges Logo Nav"
+        width={550}
+        height={260}
+      />
+    </div>
   </div>
 );
 
