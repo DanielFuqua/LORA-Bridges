@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Landing from "../components/Home/landing";
 import About from "../components/About/about";
+import Services from "../components/Services/Services";
+import Gradient from "../components/Gradient Quote/gradient";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
         <About />
+        <Services />
+        <Gradient />
       </main>
 
       {/* <footer className={styles.footer}>

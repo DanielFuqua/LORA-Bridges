@@ -2,8 +2,8 @@ import styles from "../../styles/about.module.css";
 import Image from "next/image";
 
 const About = () => (
-  <div className={styles.about_section}>
-    <div className={styles.about_section_wrapper}>
+  <div className={styles.about_section} id="about">
+    {/* <div className={styles.about_section_wrapper}>
       <div className={styles.about_header} id="about">
         <Image
           src="/about_header.svg"
@@ -16,20 +16,13 @@ const About = () => (
 
       <div className={styles.about_content}>
         <div className={styles.sally_section}>
-          <Image
-            src="/sally.svg"
-            alt="sally"
-            width={225}
-            height={300}
-            className={styles.sally}
-          />
+          <Image src="/sally.svg" alt="sally" width={225} height={300} />
           <a href="http://www.sallybartolameolli.com/">
             <Image
               src="/Sally Bartolameolli, MEd.svg"
               alt="sally title"
-              width={300}
-              height={200}
-              className={styles.sally_title}
+              width={200}
+              height={100}
             />
           </a>
         </div>
@@ -62,14 +55,22 @@ const About = () => (
             <Image
               src="/Kim Siongco.svg"
               alt="kim title"
-              width={225}
-              height={200}
+              width={170}
+              height={100}
               className={styles.kim_title}
             />
           </a>
         </div>
       </div>
       <div className={styles.lora_paragraph}>
+        <div className={styles.lora_title}>
+          <Image
+            src="/LORA Title.svg"
+            alt="Lora title"
+            width={170}
+            height={80}
+          />
+        </div>
         <p>
           LORA Bridges is about building bridges for transformation. We teach
           you how to access the archetypal energies that we believe live within
@@ -78,7 +79,7 @@ const About = () => (
           of your personal and professional life.
         </p>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
