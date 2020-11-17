@@ -49,25 +49,25 @@
 }
 
 .services_content {
-  background-color: rgba(255, 99, 71, 0.623);
-  width: 84%;
-  height: 60%;
+  /* background-color: rgba(255, 99, 71, 0.767); */
+  width: 90%;
+  height: 70%;
   position: absolute;
-  top: 25%;
-  left: 8%;
+  left: 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 10%;
 }
 
 .services_card {
-  background-color: rgba(0, 128, 128, 0.769);
+  /* background-color: rgba(0, 128, 128, 0.486); */
   width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  /* margin-top: 53%; */
 }
 
 .service_description {
@@ -76,18 +76,39 @@
   font-weight: 200;
   color: white;
   text-align: center;
+  margin-top: 8%;
+  width: 95%;
 }
 
 .service_name {
+  /* background-color: rgba(216, 191, 216, 0.646); */
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: rgba(234, 201, 85, 1);
+  text-align: center;
+  text-decoration: none;
 }
 
 .vertical_vector {
-  height: 55%;
-  width: 4px;
+  margin: 0% 5%;
+  height: 33%;
+  width: 2px;
   background: white;
   border-radius: 104px;
+}
+
+.service_svg {
+  /* position: absolute;
+  top: 25%; */
+  /* background-color: rgba(64, 224, 208, 0.705); */
+}
+
+.services_head {
+  /* background-color: rgb(68, 0, 254); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  justify-content: space-between;
 }

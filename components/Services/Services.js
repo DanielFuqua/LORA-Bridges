@@ -19,8 +19,19 @@ const Services = () => (
 
     <div className={styles.services_content}>
       <div className={styles.services_card}>
-        <Image src="/ecourse.svg" alt="e-course svg" width={155} height={165} />
-        <p className={styles.service_name}>E-Course</p>
+        <div className={styles.services_head}>
+          <div className={styles.service_svg}>
+            <Image
+              src="/ecourse.svg"
+              alt="e-course svg"
+              width={155}
+              height={165}
+            />
+          </div>
+          <a href="#" className={styles.service_name}>
+            E-Course
+          </a>
+        </div>
         <p className={styles.service_description}>
           Begin putting simple practices into place to build bridges within
           yourself, others, & your community.
@@ -28,6 +39,19 @@ const Services = () => (
       </div>
       <div className={styles.vertical_vector}></div>
       <div className={styles.services_card}>
+        <div className={styles.services_head}>
+          <div className={styles.service_svg}>
+            <Image
+              src="/survey.svg"
+              alt="survey svg"
+              width={155}
+              height={165}
+            />
+          </div>
+          <a href="#" className={styles.service_name}>
+            LORA Bridges ShadowType Survey{" "}
+          </a>
+        </div>
         <p className={styles.service_description}>
           The LORA Bridges/Shadow Types Survey is a personal survey that enables
           you to see the highly developed attributes you have in each quadrant
@@ -38,6 +62,19 @@ const Services = () => (
       </div>
       <div className={styles.vertical_vector}></div>
       <div className={styles.services_card}>
+        <div className={styles.services_head}>
+          <div className={styles.service_svg}>
+            <Image
+              src="/consulting.svg"
+              alt="consulting svg"
+              width={155}
+              height={165}
+            />
+          </div>
+          <a href="#" className={styles.service_name}>
+            Consulting and Coaching
+          </a>
+        </div>
         <p className={styles.service_description}>
           Build a Bridge and connect with us! Contact us for more information.
         </p>
