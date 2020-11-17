@@ -2,16 +2,20 @@ import styles from "../../styles/about.module.css";
 import Image from "next/image";
 
 const About = () => (
-  <div className={styles.about_section} id="about">
-    {/* <div className={styles.about_section_wrapper}>
+  <div className={styles.about_section}>
+    <div className={styles.about_section_wrapper}>
       <div className={styles.about_header} id="about">
-        <Image
-          src="/about_header.svg"
-          alt="about header"
-          width={1550}
-          height={117}
-          className={styles.logo_svg}
-        />
+        <div className={styles.vector_1}></div>
+        <div className={styles.heading_svg}>
+          <Image
+            src="/About Us.svg"
+            alt="about header"
+            width={500}
+            height={117}
+            className={styles.logo_svg}
+          />
+        </div>
+        <div className={styles.vector_2}></div>
       </div>
 
       <div className={styles.about_content}>
@@ -19,9 +23,10 @@ const About = () => (
           <Image src="/sally.svg" alt="sally" width={225} height={300} />
           <a href="http://www.sallybartolameolli.com/">
             <Image
+              className={styles.sally_title}
               src="/Sally Bartolameolli, MEd.svg"
               alt="sally title"
-              width={200}
+              width={300}
               height={100}
             />
           </a>
@@ -33,14 +38,6 @@ const About = () => (
             width={500}
             height={500}
             className={styles.manadala_pic}
-          />
-          <br />
-          <Image
-            src="/LORA Title.svg"
-            alt="Lora title"
-            width={170}
-            height={80}
-            className={styles.lora_title}
           />
         </div>
         <div className={styles.kim_section}>
@@ -55,7 +52,7 @@ const About = () => (
             <Image
               src="/Kim Siongco.svg"
               alt="kim title"
-              width={170}
+              width={200}
               height={100}
               className={styles.kim_title}
             />
@@ -63,14 +60,13 @@ const About = () => (
         </div>
       </div>
       <div className={styles.lora_paragraph}>
-        <div className={styles.lora_title}>
-          <Image
-            src="/LORA Title.svg"
-            alt="Lora title"
-            width={170}
-            height={80}
-          />
-        </div>
+        <Image
+          className={styles.lora_title}
+          src="/LORA Title.svg"
+          alt="Lora title"
+          width={170}
+          height={80}
+        />
         <p>
           LORA Bridges is about building bridges for transformation. We teach
           you how to access the archetypal energies that we believe live within
@@ -79,7 +75,7 @@ const About = () => (
           of your personal and professional life.
         </p>
       </div>
-    </div> */}
+    </div>
   </div>
 );
 

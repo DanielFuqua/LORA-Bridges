@@ -12,7 +12,7 @@ const Landing = () => (
       <p className={styles.sub_title}>
         Leadership Openness Results & Awareness
       </p>
-      {/* <p className={styles.sub_title}>& Awareness</p> */}
+      <p className={styles.third_sub}>Building Bridges for Transformation</p>
         
       <div className={styles.hero_button}>
         <p className={styles.hero_button_text}>Start Building Bridges</p>

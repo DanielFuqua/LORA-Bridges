@@ -1,40 +1,93 @@
-/* .services_section {
-  width: 100%;
-  height: 800px;
-  background: url(../public/services_bg.svg);
-  position: relative;
-  bottom: 545px;
-} */
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 .services_section {
   width: 100%;
   height: 85vh;
   position: absolute;
   top: 196%;
   background: linear-gradient(161.39deg, #655a76 4.16%, #100626 80.74%);
-  /* background-image: url("../public/services_bg.svg");
-  background-size: cover;
-  background-position: top center; */
-  /* background-color: rgb(21, 255, 0); */
 }
 
 .vector {
-  /* position: relative;
-  bottom: 54px; */
   width: 91%;
-  /* height: 0.8%; */
   height: 6px;
   position: absolute;
   left: -1%;
   bottom: 99.5%;
-  background: linear-gradient(180.39deg, #eac955 4.16%, #d4a90b 80.74%);
-  /* background: #eac955; */
+  background: linear-gradient(180.39deg, #f1dc8e 4.16%, #d4a90b 80.74%);
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
   border-radius: 104px;
 }
 
-.heading {
-  position: relative;
-  bottom: 10%;
-  margin-left: 10%;
+.services_header {
+  position: absolute;
+  width: 93%;
+  top: 3%;
+  right: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.vector_1 {
+  height: 6px;
+  width: 10%;
+  background: linear-gradient(180.39deg, #f1dc8e 4.16%, #f0cb43 4.16%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
+  border-radius: 104px;
+  margin-right: 2%;
+}
+
+.vector_2 {
+  height: 6px;
+  width: 65%;
+  background: linear-gradient(180.39deg, #ebb902 4.16%, #feda58 80.74%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
+  border-radius: 104px;
+  margin-left: 2%;
+}
+
+.services_content {
+  background-color: rgba(255, 99, 71, 0.623);
+  width: 84%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services_card {
+  background-color: rgba(0, 128, 128, 0.769);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+
+.service_name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(234, 201, 85, 1);
+}
+
+.vertical_vector {
+  height: 55%;
+  width: 4px;
+  background: white;
+  border-radius: 104px;
 }

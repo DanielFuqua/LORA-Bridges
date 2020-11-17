@@ -1,25 +1,25 @@
 import styles from "../../styles/nav.module.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => (
   <div className={styles.nav}>
     <div className={styles.navLogo}>
-      {/* <div className={styles.navLogo_text}>LORA</div>
-      <img src="/logo.png" width="95px" height="86px" />
-      <div className={styles.navLogo_text}>Bridges</div> */}
       <a href="#landing">
         <Image
           src="/navLogoFull.svg"
           alt="Lora Bridges Logo Nav"
           width={405}
           height={86}
-          className={styles.logo_svg}
         />
       </a>
     </div>
+    {/* <FontAwesomeIcon icon={faCoffee} /> */}
 
     <div className={styles.social_icons}>
       <div className={styles.icon}>
+        <i class="fab fa-twitter"></i>
         <a>
           <Image src="/twitter.svg" alt="Twitter" width={17.9} height={18.85} />
         </a>
@@ -27,6 +27,7 @@ const Nav = () => (
       <div className={styles.icon}>
         <a href="https://www.facebook.com/buildingbridgesfortransformation/">
           <Image
+            className={styles.svg_icon}
             src="/facebook.svg"
             alt="Facebook"
             width={22.08}

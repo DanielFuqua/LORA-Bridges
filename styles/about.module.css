@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sorts+Mill+Goudy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sorts+Mill+Goudy&display=swap");
 
-/* .about_test {
-  width: 100%;
-  height: 145vh;
-  background-color: rgba(0, 0, 255, 0.418);
-  background-image: url("../public/Group\ 23.png");
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  bottom: 280px;
-} */
-
 .about_section {
   width: 100%;
   height: 145vh;
@@ -23,34 +12,65 @@
   top: 65%;
 }
 
-/* .about_section {
-  width: 100vw;
-  height: 150vh;
-  background: url("../public/Group\ 23.png");
-  position: relative;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  bottom: 430px;
- 
-} */
-
 .about_section_wrapper {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
 
+/* .about {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 117px;
+  background: linear-gradient(180deg, #ffffff 0%, #eac955 83.16%, #e7cd71 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
 .about_header {
-  position: relative;
-  top: 300px;
+  /* background-color: rgba(216, 191, 216, 0.712); */
+  position: absolute;
+  width: 93%;
+  top: 18%;
+  left: -1%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.heading_svg {
+  /* background-color: seagreen; */
+}
+
+.vector_1 {
+  height: 6px;
+  width: 65%;
+  background: linear-gradient(180.39deg, #f1dc8e 4.16%, #d4a90b 80.74%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
+  border-radius: 104px;
+  margin-right: 2%;
+}
+.vector_2 {
+  height: 6px;
+  width: 10%;
+  background: linear-gradient(180.39deg, #d4a90b 4.16%, #f1dc8e 80.74%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
+  border-radius: 104px;
+  margin-left: 2%;
 }
 
 .about_content {
+  width: 84%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 330px 10% 0 10%;
+  /* margin: 330px 10% 0 10%; */
+  margin-top: 45vh;
 }
 
 .mandala {
@@ -62,14 +82,21 @@
 .sally_section {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   align-items: center;
+  height: 84%;
+  justify-content: space-between;
+}
+
+.sally_title {
 }
 
 .kim_section {
+  width: 300px;
+
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   align-items: center;
 }
 
@@ -77,17 +104,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: teal; */
+  margin-bottom: 5vh;
 }
 
 .lora_title {
+  /* background-color: thistle; */
 }
 
 .lora_paragraph p {
   /* font-family: "Sorts Mill Goudy", serif; */
   padding-top: 2%;
   font-family: "Montserrat", sans-serif;
-  font-size: 24.5px;
+  font-size: 30px;
   color: white;
   text-align: center;
-  max-width: 70%;
+  max-width: 80%;
 }
