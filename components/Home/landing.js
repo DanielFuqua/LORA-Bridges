@@ -14,9 +14,11 @@ const Landing = () => (
       </p>
       <p className={styles.third_sub}>Building Bridges for Transformation</p>
         
-      <div className={styles.hero_button}>
-        <p className={styles.hero_button_text}>Start Building Bridges</p>
-      </div>
+      <a href="#services">
+        <div className={styles.hero_button}>
+          <p className={styles.hero_button_text}>Start Building Bridges</p>
+        </div>
+      </a>
     </div>
     <div className={styles.nigerian_proverb}>
       <Image
