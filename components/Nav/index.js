@@ -60,7 +60,7 @@ const Nav = () => (
       </li>
       <li className={styles.li}>
         <a className={styles.item} href="#">
-          Events
+          Contact
         </a>
       </li>
     </ul>

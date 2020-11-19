@@ -14,7 +14,7 @@ const Landing = () => (
       </p>
       <p className={styles.third_sub}>Building Bridges for Transformation</p>
         
-      <a href="#services">
+      <a href="#services" style={{ textDecoration: "none" }}>
         <div className={styles.hero_button}>
           <p className={styles.hero_button_text}>Start Building Bridges</p>
         </div>

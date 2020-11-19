@@ -3,6 +3,7 @@
 .services_section {
   width: 100%;
   height: 85vh;
+  min-height: 743.75px;
   position: absolute;
   top: 196%;
   background: linear-gradient(161.39deg, #655a76 4.16%, #100626 80.74%);
@@ -49,9 +50,9 @@
 }
 
 .services_content {
-  /* background-color: rgba(255, 99, 71, 0.767); */
+  background-color: rgba(255, 99, 71, 0.767);
   width: 90%;
-  height: 70%;
+  height: 77%;
   position: absolute;
   left: 5%;
   display: flex;
@@ -61,7 +62,7 @@
 }
 
 .services_card {
-  /* background-color: rgba(0, 128, 128, 0.486); */
+  background-color: rgba(0, 128, 128, 0.486);
   width: 30%;
   height: 100%;
   display: flex;
@@ -78,16 +79,62 @@
   text-align: center;
   margin-top: 8%;
   width: 95%;
+  background-color: brown;
+}
+
+@media only screen and (max-width: 1187px) {
+  .service_description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1047px) {
+  .service_description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    width: 95%;
+  }
 }
 
 .service_name {
-  /* background-color: rgba(216, 191, 216, 0.646); */
+  background-color: rgba(216, 191, 216, 0.646);
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: rgba(234, 201, 85, 1);
   text-align: center;
   text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  .service_name {
+    /* background-color: rgba(216, 191, 216, 0.646); */
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(234, 201, 85, 1);
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .service_name {
+    /* background-color: rgba(216, 191, 216, 0.646); */
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: rgba(234, 201, 85, 1);
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 .vertical_vector {
@@ -98,17 +145,31 @@
   border-radius: 104px;
 }
 
+@media only screen and (max-width: 1310px) {
+  .service_svg {
+  }
+}
 .service_svg {
-  /* position: absolute;
-  top: 25%; */
-  /* background-color: rgba(64, 224, 208, 0.705); */
+  background-color: rgba(64, 224, 208, 0.705);
 }
 
 .services_head {
-  /* background-color: rgb(68, 0, 254); */
+  background-color: rgb(68, 0, 254);
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 50%;
+  width: 100%;
   justify-content: space-between;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .services_head {
+    /* background-color: rgb(68, 0, 254); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    justify-content: space-between;
+    padding-top: 50%;
+  }
 }
